@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Kister Solar Energy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Kister Solar Energy">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html#cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="about-main">
+        <section class="about-hero">
+            <h1>Join Us</h1>
+            <p>Unleash the power of the sun with Kister Solar Energy</p>
+        </section>
+
+        <!-- Add this in your about.html, perhaps after the about-content section -->
+<section class="video-section">
+    <h2>See Our Work in Action</h2>
+    <div class="video-container">
+        <video id="about-video" poster="images/boss.jpg">
+            <source src="images/VID-20250424-WA0000.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-controls">
+            <button id="play-pause" class="control-btn">
+                <i class="fas fa-play"></i>
+            </button>
+            <div class="progress-container">
+                <progress id="progress-bar" value="0" max="100"></progress>
+            </div>
+            <button id="fullscreen" class="control-btn">
+                <i class="fas fa-expand"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+        <section class="about-content">
+            <div class="about-image">
+                <img src="images/about-company.webp" alt="Kister Solar Energy Team">
+            </div>
+            <div class="about-text">
+                <h2>Who We Are</h2>
+                <p>Founded in 2015, Kister Solar Energy began as a small startup with a vision to bring reliable and affordable solar power solutions to Nigerian homes and businesses. What started as a two-person operation has now grown into one of the most trusted names in Nigeria's renewable energy sector.</p>
+                
+                <h2>Our Journey</h2>
+                <p>In our first year, we installed solar systems for just 15 homes in Lagos. Today, we've powered over 5,000 homes and businesses across 12 states in Nigeria. Our growth has been fueled by our commitment to quality products and exceptional customer service.</p>
+                
+                <h2>Milestones</h2>
+                <ul>
+                    <li><strong>2015:</strong> Company founded with initial focus on Lagos market</li>
+                    <li><strong>2017:</strong> Expanded operations to 3 additional states</li>
+                    <li><strong>2019:</strong> Launched our own line of rechargeable solar fans</li>
+                    <li><strong>2021:</strong> Recognized as "Solar Company of the Year" by Renewable Energy Association of Nigeria</li>
+                    <li><strong>2023:</strong> Reached 5,000+ satisfied customers nationwide</li>
+                </ul>
+                
+                <h2>Our Mission</h2>
+                <p>To provide affordable, reliable, and sustainable solar energy solutions that power Nigerian homes and businesses while reducing environmental impact. We believe in energy solutions that work for Africa's unique climate and needs.</p>
+                
+                <h2>Why Choose Us</h2>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>8+ years of industry experience</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Quality products with 2-year warranty</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Nationwide installation network</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>24/7 customer support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Kister Solar Energy</h3>
+                <p>Providing reliable solar energy solutions since 2015</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="index.html#cart">View Cart</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="https://wa.me/2347048501757" target="_blank"><i class="fab fa-whatsapp"></i> Kister Whatsapp</a>
+                    <a href="https://web.facebook.com/profile.php?id=100094222621414" target="_blank"><i class="fab fa-facebook"></i> Kister Facebook</a>
+                    <a href="https://instagram.com/kister_solar_energy" target="_blank"><i class="fab fa-instagram"></i> Kister Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Kister Solar Energy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
